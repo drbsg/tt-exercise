@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simple circuit that adds two 4-bit binary numbers. The first four input pins (REG0_0 to REG0_3)
+encode the first binary number, and the second four input pins (REG1_0 to REG1_3) encode the second.
+The result appears on four output pins RESULT_0 to RESULT_3, with overflow on the fifth pin OVERFLOW.
 
 ## How to test
 
-Explain how to use your project
+Cycle through all four bit numbers and check that the arithmetic is working.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None required.
